@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA5C6431B8F0FC800B485E2 /* CZW_PriceStandardBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5C6411B8F0FC800B485E2 /* CZW_PriceStandardBackView.m */; };
+		FDE56A171B8FFC9500701267 /* RHCTShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A161B8FFC9500701267 /* RHCTShowAlert.m */; };
+		FDE56A1B1B9009B300701267 /* CUSFlashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A1A1B9009B300701267 /* CUSFlashLabel.m */; };
+		FDE56A201B90118000701267 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A1E1B90118000701267 /* UIColor+HexColor.m */; };
+		FDE70B751B8EC5E200A325CC /* PgySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B741B8EC5E200A325CC /* PgySDK.framework */; };
+		FDE70B771B8EC5FD00A325CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B761B8EC5FD00A325CC /* CoreTelephony.framework */; };
+		FDE70B791B8EC63600A325CC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B781B8EC63600A325CC /* OpenGLES.framework */; };
+		FDE70B7B1B8EC64100A325CC /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B7A1B8EC64100A325CC /* SceneKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDE70B7D1B8EC64C00A325CC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B7C1B8EC64C00A325CC /* CoreMotion.framework */; };
+		FDE70B7F1B8EC65800A325CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B7E1B8EC65800A325CC /* AudioToolbox.framework */; };
+		FDE70B811B8EC66300A325CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B801B8EC66300A325CC /* AVFoundation.framework */; };
+		FDE70B831B8EC66E00A325CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE70B821B8EC66E00A325CC /* SystemConfiguration.framework */; };
+		FDE70B871B8EDE7E00A325CC /* YTFCChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE70B851B8EDE7E00A325CC /* YTFCChannelTableViewCell.m */; };
+		FDE70B881B8EDE7E00A325CC /* YTFCChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE70B861B8EDE7E00A325CC /* YTFCChannelTableViewCell.xib */; };
+		FDE70B8E1B8EF4E100A325CC /* YTFCInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE70B8D1B8EF4E100A325CC /* YTFCInterface.m */; };
+		FDE7C0F81B857E1A008BB76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C0F71B857E1A008BB76E /* main.m */; };
+		FDE7C0FB1B857E1A008BB76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C0FA1B857E1A008BB76E /* AppDelegate.m */; };
+		FDE7C1031B857E1A008BB76E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1021B857E1A008BB76E /* Images.xcassets */; };
+		FDE7C1061B857E1A008BB76E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1041B857E1A008BB76E /* LaunchScreen.xib */; };
+		FDE7C1121B857E1A008BB76E /* HRBYiTengFCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C1111B857E1A008BB76E /* HRBYiTengFCTests.m */; };
+		FDE7C1211B85806C008BB76E /* YTFCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C11F1B85806C008BB76E /* YTFCBaseViewController.m */; };
+		FDE7C1221B85806C008BB76E /* YTFCBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1201B85806C008BB76E /* YTFCBaseViewController.xib */; };
+		FDE7C1261B858087008BB76E /* YTFCContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C1241B858087008BB76E /* YTFCContainerViewController.m */; };
+		FDE7C1271B858087008BB76E /* YTFCContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1251B858087008BB76E /* YTFCContainerViewController.xib */; };
+		FDE7C1391B85854B008BB76E /* YTFCRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C1381B85854B008BB76E /* YTFCRootNavigationController.m */; };
+		FDE7C13D1B858B2D008BB76E /* YTFCLiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C13B1B858B2D008BB76E /* YTFCLiftViewController.m */; };
+		FDE7C13E1B858B2D008BB76E /* YTFCLiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C13C1B858B2D008BB76E /* YTFCLiftViewController.xib */; };
+		FDE7C1611B85B319008BB76E /* YTFCTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C15F1B85B319008BB76E /* YTFCTitleTableViewCell.m */; };
+		FDE7C1621B85B319008BB76E /* YTFCTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1601B85B319008BB76E /* YTFCTitleTableViewCell.xib */; };
+		FDE7C1661B85C397008BB76E /* YTFCVideoObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C1651B85C397008BB76E /* YTFCVideoObj.m */; };
+		FDE7C16D1B85CB35008BB76E /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C16C1B85CB35008BB76E /* ParallaxHeaderView.m */; };
+		FDE7C1701B85CB4C008BB76E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C16F1B85CB4C008BB76E /* UIImage+ImageEffects.m */; };
+		FDE7C1741B85D6E4008BB76E /* YTFCVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C1721B85D6E4008BB76E /* YTFCVideoViewController.m */; };
+		FDE7C1751B85D6E4008BB76E /* YTFCVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE7C1731B85D6E4008BB76E /* YTFCVideoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE7C10C1B857E1A008BB76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE7C0EA1B857E1A008BB76E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE7C0F11B857E1A008BB76E;
+			remoteInfo = HRBYiTengFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA5C6401B8F0FC800B485E2 /* CZW_PriceStandardBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZW_PriceStandardBackView.h; sourceTree = "<group>"; };
+		FDA5C6411B8F0FC800B485E2 /* CZW_PriceStandardBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZW_PriceStandardBackView.m; sourceTree = "<group>"; };
+		FDE56A151B8FFC9500701267 /* RHCTShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCTShowAlert.h; sourceTree = "<group>"; };
+		FDE56A161B8FFC9500701267 /* RHCTShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCTShowAlert.m; sourceTree = "<group>"; };
+		FDE56A191B9009B300701267 /* CUSFlashLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSFlashLabel.h; sourceTree = "<group>"; };
+		FDE56A1A1B9009B300701267 /* CUSFlashLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSFlashLabel.m; sourceTree = "<group>"; };
+		FDE56A1D1B90118000701267 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		FDE56A1E1B90118000701267 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		FDE70B741B8EC5E200A325CC /* PgySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PgySDK.framework; sourceTree = "<group>"; };
+		FDE70B761B8EC5FD00A325CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FDE70B781B8EC63600A325CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FDE70B7A1B8EC64100A325CC /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		FDE70B7C1B8EC64C00A325CC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FDE70B7E1B8EC65800A325CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FDE70B801B8EC66300A325CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FDE70B821B8EC66E00A325CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FDE70B841B8EDE7E00A325CC /* YTFCChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCChannelTableViewCell.h; sourceTree = "<group>"; };
+		FDE70B851B8EDE7E00A325CC /* YTFCChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCChannelTableViewCell.m; sourceTree = "<group>"; };
+		FDE70B861B8EDE7E00A325CC /* YTFCChannelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCChannelTableViewCell.xib; sourceTree = "<group>"; };
+		FDE70B8C1B8EF4E100A325CC /* YTFCInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCInterface.h; sourceTree = "<group>"; };
+		FDE70B8D1B8EF4E100A325CC /* YTFCInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCInterface.m; sourceTree = "<group>"; };
+		FDE7C0F21B857E1A008BB76E /* HRBYiTengFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRBYiTengFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE7C0F61B857E1A008BB76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE7C0F71B857E1A008BB76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE7C0F91B857E1A008BB76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		FDE7C0FA1B857E1A008BB76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		FDE7C1021B857E1A008BB76E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDE7C1051B857E1A008BB76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDE7C10B1B857E1A008BB76E /* HRBYiTengFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRBYiTengFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE7C1101B857E1A008BB76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE7C1111B857E1A008BB76E /* HRBYiTengFCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRBYiTengFCTests.m; sourceTree = "<group>"; };
+		FDE7C11E1B85806C008BB76E /* YTFCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCBaseViewController.h; sourceTree = "<group>"; };
+		FDE7C11F1B85806C008BB76E /* YTFCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCBaseViewController.m; sourceTree = "<group>"; };
+		FDE7C1201B85806C008BB76E /* YTFCBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCBaseViewController.xib; sourceTree = "<group>"; };
+		FDE7C1231B858087008BB76E /* YTFCContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCContainerViewController.h; sourceTree = "<group>"; };
+		FDE7C1241B858087008BB76E /* YTFCContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCContainerViewController.m; sourceTree = "<group>"; };
+		FDE7C1251B858087008BB76E /* YTFCContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCContainerViewController.xib; sourceTree = "<group>"; };
+		FDE7C1361B858264008BB76E /* YTFC.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFC.pch; sourceTree = "<group>"; };
+		FDE7C1371B85854B008BB76E /* YTFCRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCRootNavigationController.h; sourceTree = "<group>"; };
+		FDE7C1381B85854B008BB76E /* YTFCRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCRootNavigationController.m; sourceTree = "<group>"; };
+		FDE7C13A1B858B2D008BB76E /* YTFCLiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCLiftViewController.h; sourceTree = "<group>"; };
+		FDE7C13B1B858B2D008BB76E /* YTFCLiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCLiftViewController.m; sourceTree = "<group>"; };
+		FDE7C13C1B858B2D008BB76E /* YTFCLiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCLiftViewController.xib; sourceTree = "<group>"; };
+		FDE7C15E1B85B319008BB76E /* YTFCTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCTitleTableViewCell.h; sourceTree = "<group>"; };
+		FDE7C15F1B85B319008BB76E /* YTFCTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCTitleTableViewCell.m; sourceTree = "<group>"; };
+		FDE7C1601B85B319008BB76E /* YTFCTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCTitleTableViewCell.xib; sourceTree = "<group>"; };
+		FDE7C1641B85C397008BB76E /* YTFCVideoObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCVideoObj.h; sourceTree = "<group>"; };
+		FDE7C1651B85C397008BB76E /* YTFCVideoObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCVideoObj.m; sourceTree = "<group>"; };
+		FDE7C16B1B85CB35008BB76E /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		FDE7C16C1B85CB35008BB76E /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		FDE7C16E1B85CB4C008BB76E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		FDE7C16F1B85CB4C008BB76E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		FDE7C1711B85D6E4008BB76E /* YTFCVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFCVideoViewController.h; sourceTree = "<group>"; };
+		FDE7C1721B85D6E4008BB76E /* YTFCVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFCVideoViewController.m; sourceTree = "<group>"; };
+		FDE7C1731B85D6E4008BB76E /* YTFCVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTFCVideoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE7C0EF1B857E1A008BB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE70B831B8EC66E00A325CC /* SystemConfiguration.framework in Frameworks */,
+				FDE70B811B8EC66300A325CC /* AVFoundation.framework in Frameworks */,
+				FDE70B7F1B8EC65800A325CC /* AudioToolbox.framework in Frameworks */,
+				FDE70B7D1B8EC64C00A325CC /* CoreMotion.framework in Frameworks */,
+				FDE70B7B1B8EC64100A325CC /* SceneKit.framework in Frameworks */,
+				FDE70B791B8EC63600A325CC /* OpenGLES.framework in Frameworks */,
+				FDE70B771B8EC5FD00A325CC /* CoreTelephony.framework in Frameworks */,
+				FDE70B751B8EC5E200A325CC /* PgySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE7C1081B857E1A008BB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE56A141B8FFC7F00701267 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FDE56A151B8FFC9500701267 /* RHCTShowAlert.h */,
+				FDE56A161B8FFC9500701267 /* RHCTShowAlert.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		FDE56A181B90099A00701267 /* CUSFlashLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FDE56A191B9009B300701267 /* CUSFlashLabel.h */,
+				FDE56A1A1B9009B300701267 /* CUSFlashLabel.m */,
+			);
+			path = CUSFlashLabel;
+			sourceTree = "<group>";
+		};
+		FDE70B731B8EC5B000A325CC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FDE70B821B8EC66E00A325CC /* SystemConfiguration.framework */,
+				FDE70B801B8EC66300A325CC /* AVFoundation.framework */,
+				FDE70B7E1B8EC65800A325CC /* AudioToolbox.framework */,
+				FDE70B7C1B8EC64C00A325CC /* CoreMotion.framework */,
+				FDE70B7A1B8EC64100A325CC /* SceneKit.framework */,
+				FDE70B781B8EC63600A325CC /* OpenGLES.framework */,
+				FDE70B761B8EC5FD00A325CC /* CoreTelephony.framework */,
+				FDE70B741B8EC5E200A325CC /* PgySDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		FDE7C0E91B857E1A008BB76E = {
+			isa = PBXGroup;
+			children = (
+				FDE7C0F41B857E1A008BB76E /* HRBYiTengFC */,
+				FDE7C10E1B857E1A008BB76E /* HRBYiTengFCTests */,
+				FDE7C0F31B857E1A008BB76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE7C0F31B857E1A008BB76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C0F21B857E1A008BB76E /* HRBYiTengFC.app */,
+				FDE7C10B1B857E1A008BB76E /* HRBYiTengFCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE7C0F41B857E1A008BB76E /* HRBYiTengFC */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C11B1B857EFE008BB76E /* Application */,
+				FDE7C1331B8581A6008BB76E /* Common */,
+				FDE7C1631B85C36F008BB76E /* Modle */,
+				FDE7C14D1B85A1EE008BB76E /* Views */,
+				FDE7C11C1B857EFE008BB76E /* Controller */,
+				FDE7C1021B857E1A008BB76E /* Images.xcassets */,
+				FDE7C1041B857E1A008BB76E /* LaunchScreen.xib */,
+				FDE7C0F51B857E1A008BB76E /* Supporting Files */,
+				FDE70B731B8EC5B000A325CC /* Framework */,
+			);
+			path = HRBYiTengFC;
+			sourceTree = "<group>";
+		};
+		FDE7C0F51B857E1A008BB76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C0F61B857E1A008BB76E /* Info.plist */,
+				FDE7C0F71B857E1A008BB76E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE7C10E1B857E1A008BB76E /* HRBYiTengFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C1111B857E1A008BB76E /* HRBYiTengFCTests.m */,
+				FDE7C10F1B857E1A008BB76E /* Supporting Files */,
+			);
+			path = HRBYiTengFCTests;
+			sourceTree = "<group>";
+		};
+		FDE7C10F1B857E1A008BB76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C1101B857E1A008BB76E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE7C11B1B857EFE008BB76E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C0F91B857E1A008BB76E /* AppDelegate.h */,
+				FDE7C0FA1B857E1A008BB76E /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FDE7C11C1B857EFE008BB76E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C11D1B858035008BB76E /* YTFCRootController */,
+				FDE7C1281B8580E5008BB76E /* YTFCSubController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDE7C11D1B858035008BB76E /* YTFCRootController */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C11E1B85806C008BB76E /* YTFCBaseViewController.h */,
+				FDE7C11F1B85806C008BB76E /* YTFCBaseViewController.m */,
+				FDE7C1201B85806C008BB76E /* YTFCBaseViewController.xib */,
+				FDE7C1371B85854B008BB76E /* YTFCRootNavigationController.h */,
+				FDE7C1381B85854B008BB76E /* YTFCRootNavigationController.m */,
+				FDE7C1231B858087008BB76E /* YTFCContainerViewController.h */,
+				FDE7C1241B858087008BB76E /* YTFCContainerViewController.m */,
+				FDE7C1251B858087008BB76E /* YTFCContainerViewController.xib */,
+			);
+			path = YTFCRootController;
+			sourceTree = "<group>";
+		};
+		FDE7C1281B8580E5008BB76E /* YTFCSubController */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C13A1B858B2D008BB76E /* YTFCLiftViewController.h */,
+				FDE7C13B1B858B2D008BB76E /* YTFCLiftViewController.m */,
+				FDE7C13C1B858B2D008BB76E /* YTFCLiftViewController.xib */,
+				FDE7C1711B85D6E4008BB76E /* YTFCVideoViewController.h */,
+				FDE7C1721B85D6E4008BB76E /* YTFCVideoViewController.m */,
+				FDE7C1731B85D6E4008BB76E /* YTFCVideoViewController.xib */,
+			);
+			path = YTFCSubController;
+			sourceTree = "<group>";
+		};
+		FDE7C1331B8581A6008BB76E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C1361B858264008BB76E /* YTFC.pch */,
+				FDE70B8C1B8EF4E100A325CC /* YTFCInterface.h */,
+				FDE70B8D1B8EF4E100A325CC /* YTFCInterface.m */,
+				FDE56A1D1B90118000701267 /* UIColor+HexColor.h */,
+				FDE56A1E1B90118000701267 /* UIColor+HexColor.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FDE7C14D1B85A1EE008BB76E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C16A1B85CB2A008BB76E /* ThirdView */,
+				FDE7C14E1B85A214008BB76E /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDE7C14E1B85A214008BB76E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C15E1B85B319008BB76E /* YTFCTitleTableViewCell.h */,
+				FDE7C15F1B85B319008BB76E /* YTFCTitleTableViewCell.m */,
+				FDE7C1601B85B319008BB76E /* YTFCTitleTableViewCell.xib */,
+				FDE70B841B8EDE7E00A325CC /* YTFCChannelTableViewCell.h */,
+				FDE70B851B8EDE7E00A325CC /* YTFCChannelTableViewCell.m */,
+				FDE70B861B8EDE7E00A325CC /* YTFCChannelTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FDE7C1631B85C36F008BB76E /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C1641B85C397008BB76E /* YTFCVideoObj.h */,
+				FDE7C1651B85C397008BB76E /* YTFCVideoObj.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		FDE7C16A1B85CB2A008BB76E /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				FDE56A181B90099A00701267 /* CUSFlashLabel */,
+				FDE56A141B8FFC7F00701267 /* AlertView */,
+				FDA5C6401B8F0FC800B485E2 /* CZW_PriceStandardBackView.h */,
+				FDA5C6411B8F0FC800B485E2 /* CZW_PriceStandardBackView.m */,
+				FDE7C16E1B85CB4C008BB76E /* UIImage+ImageEffects.h */,
+				FDE7C16F1B85CB4C008BB76E /* UIImage+ImageEffects.m */,
+				FDE7C16B1B85CB35008BB76E /* ParallaxHeaderView.h */,
+				FDE7C16C1B85CB35008BB76E /* ParallaxHeaderView.m */,
+			);
+			path = ThirdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE7C0F11B857E1A008BB76E /* HRBYiTengFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE7C1151B857E1A008BB76E /* Build configuration list for PBXNativeTarget "HRBYiTengFC" */;
+			buildPhases = (
+				FDE7C0EE1B857E1A008BB76E /* Sources */,
+				FDE7C0EF1B857E1A008BB76E /* Frameworks */,
+				FDE7C0F01B857E1A008BB76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRBYiTengFC;
+			productName = HRBYiTengFC;
+			productReference = FDE7C0F21B857E1A008BB76E /* HRBYiTengFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE7C10A1B857E1A008BB76E /* HRBYiTengFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE7C1181B857E1A008BB76E /* Build configuration list for PBXNativeTarget "HRBYiTengFCTests" */;
+			buildPhases = (
+				FDE7C1071B857E1A008BB76E /* Sources */,
+				FDE7C1081B857E1A008BB76E /* Frameworks */,
+				FDE7C1091B857E1A008BB76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE7C10D1B857E1A008BB76E /* PBXTargetDependency */,
+			);
+			name = HRBYiTengFCTests;
+			productName = HRBYiTengFCTests;
+			productReference = FDE7C10B1B857E1A008BB76E /* HRBYiTengFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE7C0EA1B857E1A008BB76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Yinan;
+				TargetAttributes = {
+					FDE7C0F11B857E1A008BB76E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FDE7C10A1B857E1A008BB76E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FDE7C0F11B857E1A008BB76E;
+					};
+				};
+			};
+			buildConfigurationList = FDE7C0ED1B857E1A008BB76E /* Build configuration list for PBXProject "HRBYiTengFC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE7C0E91B857E1A008BB76E;
+			productRefGroup = FDE7C0F31B857E1A008BB76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE7C0F11B857E1A008BB76E /* HRBYiTengFC */,
+				FDE7C10A1B857E1A008BB76E /* HRBYiTengFCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE7C0F01B857E1A008BB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE7C13E1B858B2D008BB76E /* YTFCLiftViewController.xib in Resources */,
+				FDE7C1271B858087008BB76E /* YTFCContainerViewController.xib in Resources */,
+				FDE7C1061B857E1A008BB76E /* LaunchScreen.xib in Resources */,
+				FDE7C1031B857E1A008BB76E /* Images.xcassets in Resources */,
+				FDE7C1621B85B319008BB76E /* YTFCTitleTableViewCell.xib in Resources */,
+				FDE7C1221B85806C008BB76E /* YTFCBaseViewController.xib in Resources */,
+				FDE7C1751B85D6E4008BB76E /* YTFCVideoViewController.xib in Resources */,
+				FDE70B881B8EDE7E00A325CC /* YTFCChannelTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE7C1091B857E1A008BB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE7C0EE1B857E1A008BB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE56A171B8FFC9500701267 /* RHCTShowAlert.m in Sources */,
+				FDE7C16D1B85CB35008BB76E /* ParallaxHeaderView.m in Sources */,
+				FDE7C1661B85C397008BB76E /* YTFCVideoObj.m in Sources */,
+				FDE56A1B1B9009B300701267 /* CUSFlashLabel.m in Sources */,
+				FDE56A201B90118000701267 /* UIColor+HexColor.m in Sources */,
+				FDE7C1741B85D6E4008BB76E /* YTFCVideoViewController.m in Sources */,
+				FDE7C1261B858087008BB76E /* YTFCContainerViewController.m in Sources */,
+				FDE70B8E1B8EF4E100A325CC /* YTFCInterface.m in Sources */,
+				FDE7C0FB1B857E1A008BB76E /* AppDelegate.m in Sources */,
+				FDE7C1701B85CB4C008BB76E /* UIImage+ImageEffects.m in Sources */,
+				FDE7C1391B85854B008BB76E /* YTFCRootNavigationController.m in Sources */,
+				FDE7C1211B85806C008BB76E /* YTFCBaseViewController.m in Sources */,
+				FDE7C0F81B857E1A008BB76E /* main.m in Sources */,
+				FDA5C6431B8F0FC800B485E2 /* CZW_PriceStandardBackView.m in Sources */,
+				FDE7C1611B85B319008BB76E /* YTFCTitleTableViewCell.m in Sources */,
+				FDE7C13D1B858B2D008BB76E /* YTFCLiftViewController.m in Sources */,
+				FDE70B871B8EDE7E00A325CC /* YTFCChannelTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE7C1071B857E1A008BB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE7C1121B857E1A008BB76E /* HRBYiTengFCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE7C10D1B857E1A008BB76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE7C0F11B857E1A008BB76E /* HRBYiTengFC */;
+			targetProxy = FDE7C10C1B857E1A008BB76E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE7C1041B857E1A008BB76E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE7C1051B857E1A008BB76E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE7C1131B857E1A008BB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDE7C1141B857E1A008BB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE7C1161B857E1A008BB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRBYiTengFC/Framework",
+				);
+				INFOPLIST_FILE = HRBYiTengFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDE7C1171B857E1A008BB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRBYiTengFC/Framework",
+				);
+				INFOPLIST_FILE = HRBYiTengFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDE7C1191B857E1A008BB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HRBYiTengFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRBYiTengFC.app/HRBYiTengFC";
+			};
+			name = Debug;
+		};
+		FDE7C11A1B857E1A008BB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HRBYiTengFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRBYiTengFC.app/HRBYiTengFC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE7C0ED1B857E1A008BB76E /* Build configuration list for PBXProject "HRBYiTengFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7C1131B857E1A008BB76E /* Debug */,
+				FDE7C1141B857E1A008BB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE7C1151B857E1A008BB76E /* Build configuration list for PBXNativeTarget "HRBYiTengFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7C1161B857E1A008BB76E /* Debug */,
+				FDE7C1171B857E1A008BB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE7C1181B857E1A008BB76E /* Build configuration list for PBXNativeTarget "HRBYiTengFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7C1191B857E1A008BB76E /* Debug */,
+				FDE7C11A1B857E1A008BB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE7C0EA1B857E1A008BB76E /* Project object */;
+}

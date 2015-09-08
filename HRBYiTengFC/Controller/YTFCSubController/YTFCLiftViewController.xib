@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YTFCLiftViewController">
+            <connections>
+                <outlet property="tableView" destination="p0X-d7-YWt" id="POk-RD-S3P"/>
+                <outlet property="topConstraint" destination="MQO-B7-q7Y" id="GUP-wJ-r6D"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="p0X-d7-YWt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="5Dm-EX-bFY"/>
+                        <constraint firstAttribute="height" constant="250" id="RIp-U7-TcT"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5Dm-EX-bFY"/>
+                            <exclude reference="RIp-U7-TcT"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="5Dm-EX-bFY"/>
+                            <exclude reference="RIp-U7-TcT"/>
+                        </mask>
+                    </variation>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="p0X-d7-YWt" secondAttribute="bottom" constant="50" id="Ayx-Dy-OIr"/>
+                <constraint firstItem="p0X-d7-YWt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="MQO-B7-q7Y"/>
+                <constraint firstItem="p0X-d7-YWt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="dn1-6f-Yr2"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="p0X-d7-YWt"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Ayx-Dy-OIr"/>
+                    <exclude reference="MQO-B7-q7Y"/>
+                    <exclude reference="dn1-6f-Yr2"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="p0X-d7-YWt"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Ayx-Dy-OIr"/>
+                    <include reference="MQO-B7-q7Y"/>
+                    <include reference="dn1-6f-Yr2"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="186" y="-4"/>
+        </view>
+    </objects>
+</document>
