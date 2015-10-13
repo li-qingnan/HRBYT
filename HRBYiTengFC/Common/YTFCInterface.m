@@ -40,31 +40,35 @@
     YTFCVideoObj *mvObj2 = [[YTFCVideoObj alloc] initWithTitle:@"胜利之光" videoUrl:@"http://v.qq.com/iframe/player.html?vid=a0152m4595b&tiny=0&auto=0"];
     YTFCVideoObj *mvObj3 = [[YTFCVideoObj alloc] initWithTitle:@"奔跑吧！毅腾！《I RUN FOR LIFE》" videoUrl:@"http://player.youku.com/embed/XMTMyNTMyMjE1Ng=="];
     YTFCVideoObj *mvObj4 = [[YTFCVideoObj alloc] initWithTitle:@"我的男友叫毅腾" videoUrl:@"http://player.youku.com/embed/XMTI3MjA5Mzc5Ng=="];
-    YTFCVideoObj *mvObj5 = [[YTFCVideoObj alloc] initWithTitle:@"Brave Soul" videoUrl:@"http://player.youku.com/embed/XOTQ0OTM3NzMy"];
-    YTFCVideoObj *mvObj6 = [[YTFCVideoObj alloc] initWithTitle:@"爱毅腾 再给点耐心《Patience》" videoUrl:@"http://player.youku.com/embed/XNzcwNDE1ODc2"];
-    YTFCVideoObj *mvObj7 = [[YTFCVideoObj alloc] initWithTitle:@"致罗德瑞格“为爱而飞”" videoUrl:@"http://player.youku.com/embed/XMTI5MjEyMTQ0NA=="];
-    YTFCVideoObj *mvObj8 = [[YTFCVideoObj alloc] initWithTitle:@"有毅腾的地方 宛若天堂”" videoUrl:@"http://www.56.com/iframe/MTI1ODgyODc4"];
-    YTFCVideoObj *mvObj9 = [[YTFCVideoObj alloc] initWithTitle:@"哈尔滨毅腾 ForeverYoung”" videoUrl:@"http://www.56.com/iframe/MTI3MzQzNjc4"];
-    YTFCVideoObj *mvObj10 = [[YTFCVideoObj alloc] initWithTitle:@"为梦想而战 给爱毅腾的人" videoUrl:@"http://player.youku.com/embed/XODA3NjUxNzA0"];
-    YTFCVideoObj *mvObj11 = [[YTFCVideoObj alloc] initWithTitle:@"献给曾经为毅腾而战的他们" videoUrl:@"http://player.youku.com/embed/XMTI5NDE5MTI3Mg=="];
-    YTFCVideoObj *mvObj12 = [[YTFCVideoObj alloc] initWithTitle:@"魔鬼主场 血性会展" videoUrl:@"http://player.youku.com/embed/XNzA1ODA3Nzc2"];
-    YTFCVideoObj *mvObj13 = [[YTFCVideoObj alloc] initWithTitle:@"我的好兄弟" videoUrl:@"http://player.youku.com/embed/XMTI5MjA5MzQxMg=="];
-    YTFCVideoObj *mvObj14 = [[YTFCVideoObj alloc] initWithTitle:@"其实都没有" videoUrl:@"http://v.qq.com/iframe/player.html?vid=h015570ogez&tiny=0&auto=0"];
-    YTFCVideoObj *mvObj15 = [[YTFCVideoObj alloc] initWithTitle:@"倔强" videoUrl:@"http://player.youku.com/embed/XMTI5NzUxNTM4NA=="];
-    YTFCVideoObj *mvObj16 = [[YTFCVideoObj alloc] initWithTitle:@"和毅腾一起像男人一样战斗" videoUrl:@"http://player.youku.com/embed/XMTI5NzM1NTg2MA=="];
-    YTFCVideoObj *mvObj17 = [[YTFCVideoObj alloc] initWithTitle:@"夜空中最亮的星" videoUrl:@"http://player.youku.com/embed/XMTMxNTYzMzc0MA=="];
-    YTFCVideoObj *mvObj18 = [[YTFCVideoObj alloc] initWithTitle:@"好久不见" videoUrl:@"http://player.youku.com/embed/XMTI5MTY3NTQ4MA=="];
-    YTFCVideoObj *mvObj19 = [[YTFCVideoObj alloc] initWithTitle:@"平凡之路" videoUrl:@"http://player.youku.com/embed/XMTI5MTY3NTQxMg=="];
-    YTFCVideoObj *mvObj20 = [[YTFCVideoObj alloc] initWithTitle:@"15年6月6号大连远征纪实" videoUrl:@"http://player.youku.com/embed/XMTI1ODg0MjgyNA=="];
-    YTFCVideoObj *mvObj21 = [[YTFCVideoObj alloc] initWithTitle:@"2015启程毅腾 万岁荣光" videoUrl:@"http://www.56.com/iframe/MTM1ODA5NTMy"];
-    YTFCVideoObj *mvObj22 = [[YTFCVideoObj alloc] initWithTitle:@"毅腾在 我期待" videoUrl:@"http://www.56.com/iframe/MTI4NjA4Mjc0"];
-    YTFCVideoObj *mvObj23 = [[YTFCVideoObj alloc] initWithTitle:@"有一种力量叫南看台" videoUrl:@"http://player.youku.com/embed/XNzg2NjYyNDE2"];
-    YTFCVideoObj *mvObj24 = [[YTFCVideoObj alloc] initWithTitle:@"中超不一样的匆匆—哈尔滨毅腾" videoUrl:@"http://player.youku.com/embed/XODI4ODIxMjMy"];
-    YTFCVideoObj *mvObj25 = [[YTFCVideoObj alloc] initWithTitle:@"2014中超新军哈尔滨毅腾" videoUrl:@"http://player.youku.com/embed/XNjY4NzY0NTcy"];
-    YTFCVideoObj *mvObj26 = [[YTFCVideoObj alloc] initWithTitle:@"2014最后的主场" videoUrl:@"http://player.youku.com/embed/XODA5MDQ1OTU2"];
-    YTFCVideoObj *mvObj27 = [[YTFCVideoObj alloc] initWithTitle:@"燃烧吧！毅腾！毅腾14中超进球全录" videoUrl:@"http://www.56.com/iframe/MTI5MjQ0ODEw"];
-    YTFCVideoObj *mvObj28 = [[YTFCVideoObj alloc] initWithTitle:@"哈尔滨毅腾2分钟比赛延时摄影" videoUrl:@"http://player.youku.com/embed/XMTI4MzI2NjA5Ng=="];
-    YTFCVideoObj *mvObj29 = [[YTFCVideoObj alloc] initWithTitle:@"13冲超之战" videoUrl:@"http://player.youku.com/embed/XNjI5NTY1OTUy"];
+    YTFCVideoObj *mvObj5 = [[YTFCVideoObj alloc] initWithTitle:@"一个球迷的梦呓&Red Sky" videoUrl:@"http://player.youku.com/embed/XMTM1MzMwMDc4NA=="];
+    YTFCVideoObj *mvObj6 = [[YTFCVideoObj alloc] initWithTitle:@"Brave Soul" videoUrl:@"http://player.youku.com/embed/XOTQ0OTM3NzMy"];
+    YTFCVideoObj *mvObj7 = [[YTFCVideoObj alloc] initWithTitle:@"爱毅腾 再给点耐心《Patience》" videoUrl:@"http://player.youku.com/embed/XNzcwNDE1ODc2"];
+    YTFCVideoObj *mvObj8 = [[YTFCVideoObj alloc] initWithTitle:@"致罗德瑞格“为爱而飞”" videoUrl:@"http://player.youku.com/embed/XMTI5MjEyMTQ0NA=="];
+    YTFCVideoObj *mvObj9 = [[YTFCVideoObj alloc] initWithTitle:@"有毅腾的地方 宛若天堂”" videoUrl:@"http://www.56.com/iframe/MTI1ODgyODc4"];
+    YTFCVideoObj *mvObj10 = [[YTFCVideoObj alloc] initWithTitle:@"哈尔滨毅腾 ForeverYoung”" videoUrl:@"http://www.56.com/iframe/MTI3MzQzNjc4"];
+    YTFCVideoObj *mvObj11 = [[YTFCVideoObj alloc] initWithTitle:@"为梦想而战 给爱毅腾的人" videoUrl:@"http://player.youku.com/embed/XODA3NjUxNzA0"];
+    YTFCVideoObj *mvObj12 = [[YTFCVideoObj alloc] initWithTitle:@"献给曾经为毅腾而战的他们" videoUrl:@"http://player.youku.com/embed/XMTI5NDE5MTI3Mg=="];
+    YTFCVideoObj *mvObj13 = [[YTFCVideoObj alloc] initWithTitle:@"魔鬼主场 血性会展" videoUrl:@"http://player.youku.com/embed/XNzA1ODA3Nzc2"];
+    YTFCVideoObj *mvObj14 = [[YTFCVideoObj alloc] initWithTitle:@"我的好兄弟" videoUrl:@"http://player.youku.com/embed/XMTI5MjA5MzQxMg=="];
+    YTFCVideoObj *mvObj15 = [[YTFCVideoObj alloc] initWithTitle:@"其实都没有" videoUrl:@"http://v.qq.com/iframe/player.html?vid=h015570ogez&tiny=0&auto=0"];
+    YTFCVideoObj *mvObj16 = [[YTFCVideoObj alloc] initWithTitle:@"倔强" videoUrl:@"http://player.youku.com/embed/XMTI5NzUxNTM4NA=="];
+    YTFCVideoObj *mvObj17 = [[YTFCVideoObj alloc] initWithTitle:@"和毅腾一起像男人一样战斗" videoUrl:@"http://player.youku.com/embed/XMTI5NzM1NTg2MA=="];
+    YTFCVideoObj *mvObj18 = [[YTFCVideoObj alloc] initWithTitle:@"哈广电 夜空中最亮的星" videoUrl:@"http://player.youku.com/embed/XMTMxNTYzMzc0MA=="];
+    YTFCVideoObj *mvObj19 = [[YTFCVideoObj alloc] initWithTitle:@"【桃花制作】夜空中最亮的星" videoUrl:@"http://player.youku.com/embed/XMTMzMjU1MDgwMA=="];
+    YTFCVideoObj *mvObj20 = [[YTFCVideoObj alloc] initWithTitle:@"好久不见" videoUrl:@"http://player.youku.com/embed/XMTI5MTY3NTQ4MA=="];
+    YTFCVideoObj *mvObj21 = [[YTFCVideoObj alloc] initWithTitle:@"平凡之路" videoUrl:@"http://player.youku.com/embed/XMTI5MTY3NTQxMg=="];
+    YTFCVideoObj *mvObj22 = [[YTFCVideoObj alloc] initWithTitle:@"【桃花制作】我的歌声里" videoUrl:@"http://player.youku.com/embed/XMTMzMjU2NjI0MA=="];
+    YTFCVideoObj *mvObj23 = [[YTFCVideoObj alloc] initWithTitle:@"15年6月6号大连远征纪实" videoUrl:@"http://player.youku.com/embed/XMTI1ODg0MjgyNA=="];
+    YTFCVideoObj *mvObj24 = [[YTFCVideoObj alloc] initWithTitle:@"2015启程毅腾 万岁荣光" videoUrl:@"http://www.56.com/iframe/MTM1ODA5NTMy"];
+    YTFCVideoObj *mvObj25 = [[YTFCVideoObj alloc] initWithTitle:@"毅腾在 我期待" videoUrl:@"http://www.56.com/iframe/MTI4NjA4Mjc0"];
+    YTFCVideoObj *mvObj26 = [[YTFCVideoObj alloc] initWithTitle:@"有一种力量叫南看台" videoUrl:@"http://player.youku.com/embed/XNzg2NjYyNDE2"];
+    YTFCVideoObj *mvObj27 = [[YTFCVideoObj alloc] initWithTitle:@"中超不一样的匆匆—哈尔滨毅腾" videoUrl:@"http://player.youku.com/embed/XODI4ODIxMjMy"];
+    YTFCVideoObj *mvObj28 = [[YTFCVideoObj alloc] initWithTitle:@"2014中超新军哈尔滨毅腾" videoUrl:@"http://player.youku.com/embed/XNjY4NzY0NTcy"];
+    YTFCVideoObj *mvObj29 = [[YTFCVideoObj alloc] initWithTitle:@"2014最后的主场" videoUrl:@"http://player.youku.com/embed/XODA5MDQ1OTU2"];
+    YTFCVideoObj *mvObj30 = [[YTFCVideoObj alloc] initWithTitle:@"哈尔滨毅腾涅磐之战" videoUrl:@"http://player.youku.com/embed/XODA4MjQ3NzYw"];
+    YTFCVideoObj *mvObj31 = [[YTFCVideoObj alloc] initWithTitle:@"燃烧吧！毅腾！毅腾14中超进球全录" videoUrl:@"http://www.56.com/iframe/MTI5MjQ0ODEw"];
+    YTFCVideoObj *mvObj32 = [[YTFCVideoObj alloc] initWithTitle:@"哈尔滨毅腾2分钟比赛延时摄影" videoUrl:@"http://player.youku.com/embed/XMTI4MzI2NjA5Ng=="];
+    YTFCVideoObj *mvObj33 = [[YTFCVideoObj alloc] initWithTitle:@"13冲超之战" videoUrl:@"http://player.youku.com/embed/XNjI5NTY1OTUy"];
     
     [self.mvArray addObject:mvObj1];
     [self.mvArray addObject:mvObj2];
@@ -95,6 +99,10 @@
     [self.mvArray addObject:mvObj27];
     [self.mvArray addObject:mvObj28];
     [self.mvArray addObject:mvObj29];
+    [self.mvArray addObject:mvObj30];
+    [self.mvArray addObject:mvObj31];
+    [self.mvArray addObject:mvObj32];
+    [self.mvArray addObject:mvObj33];
     
     return self.mvArray;
 
@@ -197,7 +205,9 @@
     YTFCVideoObj *game15_Obj24 = [[YTFCVideoObj alloc] initWithTitle:@"第23轮 15年8月22日 主场3:0 新疆天山雪豹" videoUrl:@"http://player.youku.com/embed/XMTMxNzg2Mzg0MA==" imageName:@"HaiBao15_23"];
     YTFCVideoObj *game15_Obj25 = [[YTFCVideoObj alloc] initWithTitle:@"第24轮 15年8月29日 客场0:1 青岛黄海制药" videoUrl:@" http://player.youku.com/embed/XMTMyMzY5ODUxNg==" imageName:@"HaiBao15_24"];
     YTFCVideoObj *game15_Obj26 = [[YTFCVideoObj alloc] initWithTitle:@"友谊赛 15年9月5日 主场4:1 俄罗斯海参崴光能" videoUrl:@"http://player.youku.com/embed/XMTMyODk4ODM0OA==" imageName:@""];
-    
+    YTFCVideoObj *game15_Obj27 = [[YTFCVideoObj alloc] initWithTitle:@"第25轮 15年9月12日 主场2:2 呼和浩特中优" videoUrl:@"http://player.youku.com/embed/XMTMzNTE5NDk5Ng==" imageName:@"HaiBao15_25"];
+    YTFCVideoObj *game15_Obj28 = [[YTFCVideoObj alloc] initWithTitle:@"第26轮 15年9月20日 客场0:1 天津松江" videoUrl:@"http://player.youku.com/embed/XMTM0Mzg2MTQ4MA==" imageName:@""];
+    YTFCVideoObj *game15_Obj29 = [[YTFCVideoObj alloc] initWithTitle:@"第27轮 15年9月26日 主场2:2 大连一方" videoUrl:@"http://player.youku.com/embed/XMTM0NzEwNDc0OA==" imageName:@"HaiBao15_27"];
     
     [self.gameArray15 addObject:game15_Obj1];
     [self.gameArray15 addObject:game15_Obj2];
@@ -225,6 +235,9 @@
     [self.gameArray15 addObject:game15_Obj24];
     [self.gameArray15 addObject:game15_Obj25];
     [self.gameArray15 addObject:game15_Obj26];
+    [self.gameArray15 addObject:game15_Obj27];
+    [self.gameArray15 addObject:game15_Obj28];
+    [self.gameArray15 addObject:game15_Obj29];
     
     return self.gameArray15;
 }

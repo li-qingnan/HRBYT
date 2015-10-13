@@ -15,12 +15,14 @@
 #import "RHCTShowAlert.h"
 #import "CUSFlashLabel.h"
 #import "UIColor+HexColor.h"
+#import "PopMenuView.h"
+
 CGFloat VideoGepToSuper = 20;
 #define K_SaveImageError @"保存图片请到iPhone的 设置-隐私-照片 功能中找到 哈尔滨毅腾 开启"
 
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
-@interface YTFCVideoViewController ()<UITableViewDataSource,UITableViewDelegate,YTFCTitleTableViewCellDelegate,UIActionSheetDelegate>
+@interface YTFCVideoViewController ()<UITableViewDataSource,UITableViewDelegate,YTFCTitleTableViewCellDelegate,UIActionSheetDelegate,PopMenuViewSelectDelegate>
 @property (nonatomic, strong) UITableView *ytfcTableView;
 
 @property (nonatomic,strong) UIView *maskView;
@@ -28,6 +30,7 @@ CGFloat VideoGepToSuper = 20;
 @property (nonatomic,strong) UIImageView *bgImageView;
 @property (nonatomic,strong) NSMutableArray *mvArray;
 @property (nonatomic,strong) NSMutableArray *ytHKSArray;
+@property (nonatomic,strong) UIButton *shareBtn;
 
 @property (nonatomic,strong) NSMutableArray *gameArray15;
 @property (nonatomic,strong) NSMutableArray *gameArray14;
@@ -290,11 +293,39 @@ CGFloat VideoGepToSuper = 20;
     self.maskView.backgroundColor = [UIColor blackColor];
     self.bgImageView.image = [UIImage imageNamed:imgStr];
     
+    self.shareBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.shareBtn.frame = CGRectMake([UIScreen mainScreen].bounds.size.width- 65, [UIScreen mainScreen].bounds.size.height- 130, 50, 130);
+    [self.shareBtn setImage:[UIImage imageNamed:@"Share"] forState:UIControlStateNormal];
+    [self.shareBtn setTitle:@"分享" forState:UIControlStateNormal];
+    self.shareBtn.titleLabel.font = [UIFont systemFontOfSize:20];
+    self.shareBtn.titleEdgeInsets = UIEdgeInsetsMake(100, -50, 0, 0);
+    [self.shareBtn addTarget:self action:@selector(showShareView) forControlEvents:UIControlEventTouchUpInside];
+    [self.maskView addSubview:self.shareBtn];
+    
     
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapgestureAction)];
     [self.maskView addGestureRecognizer:tapGesture];
     
     [self createVideoWebViewWithUrl:url];
+}
+
+#pragma mark -- 分享
+- (void)showShareView
+{
+    NSLog(@"分享");
+    
+    NSMutableArray *array = [[NSMutableArray alloc]init];
+    NSMutableArray *nameStrArr = [[NSMutableArray alloc] initWithObjects:@"朋友圈",@"微信好友",@"新浪微博",@"QQ空间",@"QQ好友",@"", nil];
+    
+    for (NSInteger i = 0; i < 6; i++) {
+        NSString *string = [NSString stringWithFormat:@"Share_%ld",(long)i];
+        PopMenuItem *item = [PopMenuItem itemWithTitle:[nameStrArr objectAtIndex:i] image:[UIImage imageNamed:string]];
+        [array addObject:item];
+    }
+    
+    PopMenuView *sharePopView = [PopMenuView menuViewWithItems:array];
+    sharePopView.delegate = self;
+    [sharePopView show];
 }
 
 - (void)tapgestureAction

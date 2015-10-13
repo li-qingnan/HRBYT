@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FDA5C6431B8F0FC800B485E2 /* CZW_PriceStandardBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5C6411B8F0FC800B485E2 /* CZW_PriceStandardBackView.m */; };
+		FDE31C1C1BA90B5400F70C2F /* PopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE31C191BA90B5400F70C2F /* PopMenuItem.m */; };
+		FDE31C1D1BA90B5400F70C2F /* PopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE31C1B1BA90B5400F70C2F /* PopMenuView.m */; };
+		FDE31C201BA90C9500F70C2F /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE31C1F1BA90C9500F70C2F /* FXBlurView.m */; };
 		FDE56A171B8FFC9500701267 /* RHCTShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A161B8FFC9500701267 /* RHCTShowAlert.m */; };
 		FDE56A1B1B9009B300701267 /* CUSFlashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A1A1B9009B300701267 /* CUSFlashLabel.m */; };
 		FDE56A201B90118000701267 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE56A1E1B90118000701267 /* UIColor+HexColor.m */; };
@@ -56,6 +59,12 @@
 /* Begin PBXFileReference section */
 		FDA5C6401B8F0FC800B485E2 /* CZW_PriceStandardBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZW_PriceStandardBackView.h; sourceTree = "<group>"; };
 		FDA5C6411B8F0FC800B485E2 /* CZW_PriceStandardBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZW_PriceStandardBackView.m; sourceTree = "<group>"; };
+		FDE31C181BA90B5400F70C2F /* PopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuItem.h; sourceTree = "<group>"; };
+		FDE31C191BA90B5400F70C2F /* PopMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuItem.m; sourceTree = "<group>"; };
+		FDE31C1A1BA90B5400F70C2F /* PopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuView.h; sourceTree = "<group>"; };
+		FDE31C1B1BA90B5400F70C2F /* PopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuView.m; sourceTree = "<group>"; };
+		FDE31C1E1BA90C9500F70C2F /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		FDE31C1F1BA90C9500F70C2F /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		FDE56A151B8FFC9500701267 /* RHCTShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCTShowAlert.h; sourceTree = "<group>"; };
 		FDE56A161B8FFC9500701267 /* RHCTShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCTShowAlert.m; sourceTree = "<group>"; };
 		FDE56A191B9009B300701267 /* CUSFlashLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSFlashLabel.h; sourceTree = "<group>"; };
@@ -137,6 +146,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDE31C171BA90B4A00F70C2F /* ShareView */ = {
+			isa = PBXGroup;
+			children = (
+				FDE31C181BA90B5400F70C2F /* PopMenuItem.h */,
+				FDE31C191BA90B5400F70C2F /* PopMenuItem.m */,
+				FDE31C1A1BA90B5400F70C2F /* PopMenuView.h */,
+				FDE31C1B1BA90B5400F70C2F /* PopMenuView.m */,
+				FDE31C1E1BA90C9500F70C2F /* FXBlurView.h */,
+				FDE31C1F1BA90C9500F70C2F /* FXBlurView.m */,
+			);
+			path = ShareView;
+			sourceTree = "<group>";
+		};
 		FDE56A141B8FFC7F00701267 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +344,7 @@
 		FDE7C16A1B85CB2A008BB76E /* ThirdView */ = {
 			isa = PBXGroup;
 			children = (
+				FDE31C171BA90B4A00F70C2F /* ShareView */,
 				FDE56A181B90099A00701267 /* CUSFlashLabel */,
 				FDE56A141B8FFC7F00701267 /* AlertView */,
 				FDA5C6401B8F0FC800B485E2 /* CZW_PriceStandardBackView.h */,
@@ -448,12 +471,15 @@
 				FDE7C1261B858087008BB76E /* YTFCContainerViewController.m in Sources */,
 				FDE70B8E1B8EF4E100A325CC /* YTFCInterface.m in Sources */,
 				FDE7C0FB1B857E1A008BB76E /* AppDelegate.m in Sources */,
+				FDE31C1D1BA90B5400F70C2F /* PopMenuView.m in Sources */,
 				FDE7C1701B85CB4C008BB76E /* UIImage+ImageEffects.m in Sources */,
 				FDE7C1391B85854B008BB76E /* YTFCRootNavigationController.m in Sources */,
+				FDE31C1C1BA90B5400F70C2F /* PopMenuItem.m in Sources */,
 				FDE7C1211B85806C008BB76E /* YTFCBaseViewController.m in Sources */,
 				FDE7C0F81B857E1A008BB76E /* main.m in Sources */,
 				FDA5C6431B8F0FC800B485E2 /* CZW_PriceStandardBackView.m in Sources */,
 				FDE7C1611B85B319008BB76E /* YTFCTitleTableViewCell.m in Sources */,
+				FDE31C201BA90C9500F70C2F /* FXBlurView.m in Sources */,
 				FDE7C13D1B858B2D008BB76E /* YTFCLiftViewController.m in Sources */,
 				FDE70B871B8EDE7E00A325CC /* YTFCChannelTableViewCell.m in Sources */,
 			);
